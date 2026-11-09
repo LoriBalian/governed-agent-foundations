@@ -1,0 +1,30 @@
+{
+  "policy_name": "Discharge Follow-up Agent Policy",
+  "policy_version": "1.0",
+  "system": "Northgate discharge follow-up agent",
+  "owner": "Northgate Health IT",
+  "approved_by": "Northgate Clinical AI Committee",
+  "purpose": "At discharge, assess 30-day readmission risk with the federated model and arrange a nurse follow-up call for high-risk patients. Decision support only.",
+
+  "allowed_tools": ["lookup_patient", "predict_readmission", "write_care_note", "schedule_followup"],
+  "approval_required": ["schedule_followup"],
+  "forbidden_for_any_agent": ["discharge_override"],
+
+  "max_tool_calls_per_task": 6,
+  "max_patients_per_task": 1,
+  "data_scope": { "hospitals": ["Northgate"] },
+
+  "model": {
+    "path": "models/federated_readmission.json",
+    "min_neutral_test_accuracy": 0.78,
+    "high_risk_threshold": 0.5,
+    "allowed_uses": ["follow-up prioritization"],
+    "prohibited_uses": ["coverage", "pricing", "discharge decisions"]
+  },
+
+  "logging": {
+    "audit_log": "artifacts/agent_audit_log.jsonl",
+    "log_arguments": true
+  },
+  "stop_on_violation": true
+}

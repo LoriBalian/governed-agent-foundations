@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+artifacts/*.jsonl
+artifacts/agent_card.md
+.env
