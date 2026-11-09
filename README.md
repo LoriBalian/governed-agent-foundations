@@ -65,7 +65,7 @@ The key lives in that terminal only. Never paste it into a file in the repo; `.e
 
 ## Turning in your notes
 
-Fill in `LAB_NOTES.md` as you go. By 9:20: Source Control (left bar), stage `LAB_NOTES.md` (and `governance/agent_policy.json` if you changed it), commit with the message `Lab notes: Firstname Lastname`, **Sync Changes**. Then on github.com, on your fork: **Contribute**, **Open pull request**, title `Lab notes: Firstname Lastname`. Nothing runs on the pull request; it is how I find your notes.
+Fill in `LAB_NOTES.md` as you go. By 9:25: Source Control (left bar), stage `LAB_NOTES.md` (and `governance/agent_policy.json` if you changed it), commit with the message `Lab notes: Firstname Lastname`, **Sync Changes**. Then on github.com, on your fork: **Contribute**, **Open pull request**, title `Lab notes: Firstname Lastname`. Nothing runs on the pull request; it is how I find your notes.
 
 ## The one idea
 

@@ -3,7 +3,7 @@
 Name:
 GitHub username:
 
-Write one to three sentences per lab, with numbers or names from YOUR run. Commit and push this file to your fork by 9:20, then open a pull request titled "Lab notes: Firstname Lastname".
+Write one to three sentences per lab, with numbers or names from YOUR run. Commit and push this file to your fork by 9:25, then open a pull request titled "Lab notes: Firstname Lastname".
 
 ## Lab 0: the loop
 What are the five things the loop does on every step, and which two of them are governance rather than intelligence?
