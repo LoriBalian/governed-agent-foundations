@@ -10,8 +10,8 @@
   "approval_required": ["schedule_followup"],
   "forbidden_for_any_agent": ["discharge_override"],
 
-  "max_tool_calls_per_task": 6,
-  "max_patients_per_task": 1,
+  "max_tool_calls_per_task": 12,
+  "max_patients_per_task": 3,
   "data_scope": { "hospitals": ["Northgate"] },
 
   "model": {
